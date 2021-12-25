@@ -10,13 +10,21 @@
   <title>carrot game</title>
 </head>
 <body>
-  <div class="game-countrol">
-    <button class="start-btn"><i class="fas fa-play"></i></button>
-    <div class="timer">
-      <span class="countdown">00:00</span>
-    </div>
-    <div class="count-but">0</div>
-  </div>
-  <div class="bug-round"></div>
+  <section class="game">
+    <header class="game__control">
+      <button class="start__button">
+        <i class="fas fa-play"></i>
+      </button>
+      <span class="game__timer">00:00</span>
+      <span class="game__score">0</span>
+    </header>
+    <section class="game__field"></section>
+  </section>
+  <section class="pop-up hidden">
+    <button class="pop-up__replay">
+      <i class="fas fa-redo"></i>
+    </button>
+    <span class="pop-up__message">Hellow</span>
+  </section>
 </body>
 </html>
